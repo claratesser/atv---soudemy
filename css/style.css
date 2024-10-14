@@ -78,6 +78,7 @@ a.botao{
 /*==================PRINCIPAL==================*/
 main section.banner{
     text-align: center;
+    margin: 0 0 5vw 0;
 }
 main section.banner h2{
     font-weight: bold;
@@ -90,25 +91,81 @@ main section.banner p {
 }
 main section.products {
     background-color: #CBE4DE;
-    padding: 1.5vw 0 0 0;
+    text-align: center;
+    padding: 3vw 10vw 3vw 10vw;
 }
 main section.products h2{
     font-size: 2rem;
-    text-align: center;
     padding: 0 0 1.5vw 0;
 }
 main section.products p.subtitulo{
-    text-align: center;
     color: #888888;
 }
 main section.products ul {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+}
+main section.products ul li {
+    width: 25%;
+    background-color: white;
+    margin: 1vw;
+    padding: 2vw;
+    border-radius: 20%;
+}
+main section.products ul li span{
+    background-color: #EFEFEF;
+    color: #888888;
+    padding: 1vw;
+    border-radius: 100%;
+}
+main section.products ul li h3{
+    margin: 1vw;
+}
+main section.products ul li p {
+    color: #888888;
+}
+main section.build h2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 5vw 0 1vw 0;
+}
+main section.build p.subtitulo{
+    color: #888888;
+    text-align: center;
+    margin: 3vw 0;
+}
+main section.build h3{
+    font-weight: bold;
+}
+main section.build div.pai{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 6vw 0;
+}
+main section.build div.pai div.texto{
+    margin: 5vw 0 0 5vw;
+}
+main section.build div.pai div.texto p{
+    margin: 1vw 0;
+    color: #888888;
+}
+footer {
+    background-color: #CBE4DE;
+    display: flex;
     justify-content: space-around;
+    padding: 1vw;
 }
-main section.produtos ul li {
-    width: 30%; 
+footer p{
+    color: black;
+    font-size: 1.2rem;
 }
-main section.produtos ul li span{
-    
+footer ul{
+    display: flex;
+    margin: 0 3vw 0 3vw;
+}
+footer ul li a {
+    margin: 0 1vw;
+    color: #888888;
+    font-size: small;
 }
